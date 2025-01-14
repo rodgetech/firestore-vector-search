@@ -1,0 +1,16 @@
+{
+  "name": "city-vector-search",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Vector search for cities using Firestore",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/generateEmbeddings.js",
+    "search": "node src/searchCities.js"
+  },
+  "dependencies": {
+    "openai": "^4.28.0",
+    "firebase-admin": "^12.0.0",
+    "dotenv": "^16.4.1"
+  }
+}
