@@ -1,4 +1,4 @@
-# City Vector Search
+# Firestore Vector Search
 
 A Node.js application that demonstrates vector search capabilities using Firebase Firestore and OpenAI embeddings. This project allows you to generate embeddings for city names and perform semantic searches to find similar cities based on natural language queries.
 
